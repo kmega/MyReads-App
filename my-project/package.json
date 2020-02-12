@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kmega.github.io/myreads-app/",
+  "homepage": "https://kmega.github.io/kmega/MyReads-App",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "prop-types": "^15.6.1",
@@ -11,11 +11,11 @@
     "react-scripts": "^3.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": {

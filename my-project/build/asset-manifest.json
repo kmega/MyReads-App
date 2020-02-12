@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/myreads-app/static/css/main.04aa7a12.chunk.css",
-    "main.js": "/myreads-app/static/js/main.b181e669.chunk.js",
-    "main.js.map": "/myreads-app/static/js/main.b181e669.chunk.js.map",
-    "runtime-main.js": "/myreads-app/static/js/runtime-main.3472a9ca.js",
-    "runtime-main.js.map": "/myreads-app/static/js/runtime-main.3472a9ca.js.map",
-    "static/js/2.168016f3.chunk.js": "/myreads-app/static/js/2.168016f3.chunk.js",
-    "static/js/2.168016f3.chunk.js.map": "/myreads-app/static/js/2.168016f3.chunk.js.map",
-    "index.html": "/myreads-app/index.html",
-    "precache-manifest.75edb81901da355826de1d2b2d8a7cac.js": "/myreads-app/precache-manifest.75edb81901da355826de1d2b2d8a7cac.js",
-    "service-worker.js": "/myreads-app/service-worker.js",
-    "static/css/main.04aa7a12.chunk.css.map": "/myreads-app/static/css/main.04aa7a12.chunk.css.map",
-    "static/js/2.168016f3.chunk.js.LICENSE.txt": "/myreads-app/static/js/2.168016f3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/myreads-app/static/media/arrow-drop-down.9d4e3f36.svg"
+    "main.css": "/MyReads-App/static/css/main.6b50340f.chunk.css",
+    "main.js": "/MyReads-App/static/js/main.b181e669.chunk.js",
+    "main.js.map": "/MyReads-App/static/js/main.b181e669.chunk.js.map",
+    "runtime-main.js": "/MyReads-App/static/js/runtime-main.df15d89b.js",
+    "runtime-main.js.map": "/MyReads-App/static/js/runtime-main.df15d89b.js.map",
+    "static/js/2.168016f3.chunk.js": "/MyReads-App/static/js/2.168016f3.chunk.js",
+    "static/js/2.168016f3.chunk.js.map": "/MyReads-App/static/js/2.168016f3.chunk.js.map",
+    "index.html": "/MyReads-App/index.html",
+    "precache-manifest.03307fe2402d5f4f9b97e06731ac7845.js": "/MyReads-App/precache-manifest.03307fe2402d5f4f9b97e06731ac7845.js",
+    "service-worker.js": "/MyReads-App/service-worker.js",
+    "static/css/main.6b50340f.chunk.css.map": "/MyReads-App/static/css/main.6b50340f.chunk.css.map",
+    "static/js/2.168016f3.chunk.js.LICENSE.txt": "/MyReads-App/static/js/2.168016f3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/MyReads-App/static/media/arrow-drop-down.9d4e3f36.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3472a9ca.js",
+    "static/js/runtime-main.df15d89b.js",
     "static/js/2.168016f3.chunk.js",
-    "static/css/main.04aa7a12.chunk.css",
+    "static/css/main.6b50340f.chunk.css",
     "static/js/main.b181e669.chunk.js"
   ]
 }
