@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyReads-App/static/css/main.6b50340f.chunk.css",
-    "main.js": "/MyReads-App/static/js/main.454b4883.chunk.js",
-    "main.js.map": "/MyReads-App/static/js/main.454b4883.chunk.js.map",
+    "main.css": "/MyReads-App/static/css/main.fd7bad42.chunk.css",
+    "main.js": "/MyReads-App/static/js/main.6e03b7a6.chunk.js",
+    "main.js.map": "/MyReads-App/static/js/main.6e03b7a6.chunk.js.map",
     "runtime-main.js": "/MyReads-App/static/js/runtime-main.df15d89b.js",
     "runtime-main.js.map": "/MyReads-App/static/js/runtime-main.df15d89b.js.map",
     "static/js/2.5fb03291.chunk.js": "/MyReads-App/static/js/2.5fb03291.chunk.js",
     "static/js/2.5fb03291.chunk.js.map": "/MyReads-App/static/js/2.5fb03291.chunk.js.map",
     "index.html": "/MyReads-App/index.html",
-    "precache-manifest.b674abb2b8bae594504e22ddbc60adc8.js": "/MyReads-App/precache-manifest.b674abb2b8bae594504e22ddbc60adc8.js",
+    "precache-manifest.5968b895d1e4631a66a708e9f259a0a3.js": "/MyReads-App/precache-manifest.5968b895d1e4631a66a708e9f259a0a3.js",
     "service-worker.js": "/MyReads-App/service-worker.js",
-    "static/css/main.6b50340f.chunk.css.map": "/MyReads-App/static/css/main.6b50340f.chunk.css.map",
+    "static/css/main.fd7bad42.chunk.css.map": "/MyReads-App/static/css/main.fd7bad42.chunk.css.map",
     "static/js/2.5fb03291.chunk.js.LICENSE.txt": "/MyReads-App/static/js/2.5fb03291.chunk.js.LICENSE.txt",
     "static/media/App.css": "/MyReads-App/static/media/arrow-drop-down.9d4e3f36.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.df15d89b.js",
     "static/js/2.5fb03291.chunk.js",
-    "static/css/main.6b50340f.chunk.css",
-    "static/js/main.454b4883.chunk.js"
+    "static/css/main.fd7bad42.chunk.css",
+    "static/js/main.6e03b7a6.chunk.js"
   ]
 }
