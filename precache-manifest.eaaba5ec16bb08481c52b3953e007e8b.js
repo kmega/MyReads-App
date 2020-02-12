@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36b82191a9819e9dfcde6bf56155f326",
+    "revision": "0477c913b0b26657a0c1d4ebf488785a",
     "url": "/MyReads-App/index.html"
   },
   {
-    "revision": "61a7f8cfc8a65c3107c1",
+    "revision": "bb13ff0e964d03bc8cc1",
     "url": "/MyReads-App/static/css/main.6b50340f.chunk.css"
   },
   {
-    "revision": "5b735cdad03843cfd5de",
-    "url": "/MyReads-App/static/js/2.168016f3.chunk.js"
+    "revision": "643da4d7c419d9657672",
+    "url": "/MyReads-App/static/js/2.eb557a6d.chunk.js"
   },
   {
     "revision": "8e3420f354ad8e6491c4bf161072f1dc",
-    "url": "/MyReads-App/static/js/2.168016f3.chunk.js.LICENSE.txt"
+    "url": "/MyReads-App/static/js/2.eb557a6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61a7f8cfc8a65c3107c1",
-    "url": "/MyReads-App/static/js/main.e39c5d9b.chunk.js"
+    "revision": "bb13ff0e964d03bc8cc1",
+    "url": "/MyReads-App/static/js/main.3103ab59.chunk.js"
   },
   {
     "revision": "ae2b7b06a3462d5d951a",
