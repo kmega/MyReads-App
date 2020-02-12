@@ -51,8 +51,9 @@ class BooksApp extends React.Component {
             div className = "open-search" >
             <
             a href = '/search' > Add a book < /a>
-						< /div> { /* Creating main route for rendering purposes. */ } <
-            Route exact path = '/'
+						< /div> { /* Creating main route for rendering purposes. */ }
+            <Router>
+            <Route exact path = '/'
             render = {
                 () => ( <
                     div className = 'list-books' >
@@ -85,8 +86,11 @@ class BooksApp extends React.Component {
                     /div> <
                     /div>
                 )
-            }/> { /* Creating main route for rendering purposes. */ } <
-            Route exact path = '/search'
+            }/>
+            </Router>
+            { /* Creating main route for rendering purposes. */ }
+            <Router>
+            <Route exact path = '/search'
             render = {
                 () => ( <
                     div className = "search-books" >
@@ -115,8 +119,9 @@ class BooksApp extends React.Component {
                     /div>
                 )
             }
-            /> <
-            /div>
+            />
+            </Router>
+            </div>
         )
     }
 }
