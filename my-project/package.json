@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kmega.github.io/kmega/MyReads-App",
+  "homepage": "https://kmega.github.io/MyReads-App/",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "prop-types": "^15.6.1",
