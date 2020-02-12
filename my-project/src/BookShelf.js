@@ -1,8 +1,8 @@
 import React, {
     Component
-} from 'react'
-import Book from './Book'
-import PropTypes from 'prop-types'
+} from "react"
+import Book from "./Book"
+import PropTypes from "prop-types"
 // Component responsible for rendering book shelves.
 class BookShelf extends Component {
     static propTypes = {
@@ -20,14 +20,14 @@ class BookShelf extends Component {
             return (
                 // Creating book shelves.
                 <
-                div className = 'bookshelf' >
+                div className = "bookshelf" >
                 <
-                h2 className = 'bookshelf-title' > {
+                h2 className = "bookshelf-title" > {
                     shelf
                 } < /h2> <
-                div className = 'bookshelf-books' >
+                div className = "bookshelf-books" >
                 <
-                ul className = 'books-grid' > {
+                ul className = "books-grid" > {
                     // Going through books in order to render them at their respective shelves.
                     books.map((book) => ( < Book key = {
                                 book.id

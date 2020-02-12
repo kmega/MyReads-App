@@ -1,14 +1,14 @@
 import React, {
     Component
-} from 'react';
+} from "react";
 // Imported BooksAPI for search option to work.
-import * as BooksAPI from './BooksAPI';
-import Book from './Book';
+import * as BooksAPI from "./BooksAPI";
+import Book from "./Book";
 // Component responsible for searching books.
 class SearchOption extends Component {
     // State with user input.
     state = {
-        query: '',
+        query: "",
         searchResults: [],
         showNothing: false
     }
@@ -29,7 +29,7 @@ class SearchOption extends Component {
                             if (onShelf.id === newBook.id) {
                                 newBook.shelf = onShelf.shelf
                             } else {
-                                newBook.shelf = 'none'
+                                newBook.shelf = "none"
                             }
                         })
                     })
@@ -54,10 +54,10 @@ class SearchOption extends Component {
             changeShelf
         } = this.props;
         return ( <
-            section className = 'app' >
+            section className = "app" >
             <
-            input type = 'text'
-            placeholder = 'Search by Title or Author'
+            input type = "text"
+            placeholder = "Search by Title or Author"
             value = {
                 this.state.query
             }
@@ -65,7 +65,7 @@ class SearchOption extends Component {
                 this.search
             }
             /> <
-            div className = 'books-search-grid' > {
+            div className = "books-search-grid" > {
                 this.state.searchResults.map(book => ( <
                     Book key = {
                         book.id

@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 // Imported BooksAPI as suggested.
-import * as BooksAPI from './BooksAPI';
-import { Route } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
-import BookShelf from './BookShelf';
-import SearchOption from './SearchOption';
+import * as BooksAPI from "./BooksAPI";
+import { Route } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
+import BookShelf from "./BookShelf";
+import SearchOption from "./SearchOption";
 // State with all books.
 class BooksApp extends React.Component {
     state = {
@@ -32,37 +32,37 @@ class BooksApp extends React.Component {
     render() {
         // Currently available shelves and their names.
         const bookStatus = [{
-                status: 'currentlyReading',
-                statusName: 'Currently Reading'
+                status: "currentlyReading",
+                statusName: "Currently Reading"
             },
             {
-                status: 'wantToRead',
-                statusName: 'Want to Read'
+                status: "wantToRead",
+                statusName: "Want to Read"
             },
             {
-                status: 'read',
-                statusName: 'Read'
+                status: "read",
+                statusName: "Read"
             }
         ];
         // Here application starts.
         return ( <
-            div className = 'app' >
+            div className = "app" >
             <
             div className = "open-search" >
             <
-            a href = '/search' > Add a book < /a>
+            a href = "/search" > Add a book < /a>
 						< /div> { /* Creating main route for rendering purposes. */ }
             <Router basename = "/my-project">
-            <Route exact path = '/'
+            <Route exact path = "/"
             render = {
                 () => ( <
-                    div className = 'list-books' >
+                    div className = "list-books" >
                     <
-                    div className = 'list-books-title' >
+                    div className = "list-books-title" >
                     <
                     h1 > MyReads < /h1> <
                     /div> <
-                    div className = 'list-books-content' > { /* Render books that initially are at begining. */ } <
+                    div className = "list-books-content" > { /* Render books that initially are at begining. */ } <
                     div > {
                         bookStatus.map((shelf, iteration) => {
                             const books = this.state.books.filter(book => book.shelf === shelf.status)
@@ -89,8 +89,8 @@ class BooksApp extends React.Component {
             }/>
             </Router>
             { /* Creating main route for rendering purposes. */ }
-            <Router>
-            <Route exact path = '/search'
+            <Router basename = "/my-project">
+            <Route exact path = "/search"
             render = {
                 () => ( <
                     div className = "search-books" >
@@ -98,7 +98,7 @@ class BooksApp extends React.Component {
                     div className = "search-books-bar" >
                     <
                     a className = "close-search"
-                    href = '/' > Close < /a> <
+                    href = "/" > Close < /a> <
                     div className = "search-books-input-wrapper" >
                     <
                     SearchOption type = "text"
