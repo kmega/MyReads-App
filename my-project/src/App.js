@@ -52,7 +52,7 @@ class BooksApp extends React.Component {
             <
             a href = '/search' > Add a book < /a>
 						< /div> { /* Creating main route for rendering purposes. */ }
-            <Router>
+            <Router basename = "/my-project">
             <Route exact path = '/'
             render = {
                 () => ( <
